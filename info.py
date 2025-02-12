@@ -3,14 +3,14 @@ import time
 
 class Config(object):
     # Pyrogram Client
-    API_ID    = int(os.environ.get("API_ID", "21803165"))  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "05e5e695feb30e25bef47484cc006da7") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7711451543:AAEcgbrmckS0xZv4WbVXGdyIvIircl870") # ⚠️ Required
+    API_ID    = int(os.environ.get("API_ID", "21265409"))  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "34c826fd1b989c35e338248d07ad3665") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7398678577:AAG-FdOk83vMZ8f2-hW2V74BQIIRB0I0iIc") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "771537786"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "771537386").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "8182605117"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "8182605117").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
@@ -32,7 +32,7 @@ class Txt(object):
     SEND_SESSION_MSG = """
 **❪ 𝖲ᴇɴᴅ 𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ ❫**
 
-**☛ 𝖦ᴇɴᴇʀᴀᴛᴇ 𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ 𝖥ᴏʀᴍ <a href=t.me/king_string_session_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>**
+**☛ 𝖦ᴇɴᴇʀᴀᴛᴇ 𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ 𝖥ᴏʀᴍ <a href=https://telegram.tools/session-string-generator#pyrogram >ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>**
 
 
 """
@@ -96,7 +96,7 @@ class Txt(object):
 
 <b>✦ » Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ɪɴ ᴍᴀss ʟᴇᴠᴇʟ ᴛʜʀᴏᴜɢʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ sᴇssɪᴏɴ sᴛʀɪɴɢ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʙʏ :- <a href=t.me/king_string_session_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b> 
 
-<b>✦ » Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- <a href=t.me/ll_ALPHA_BABY_lll>ᴀʟᴘʜᴀ ʙᴀʙʏ</a></b>
+<b>✦ » Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- <a href=t.me/II_VIKRANT_II>𝐕ɪᴋʀᴀɴᴛ </a></b>
 """
 
     HELP_MSG = """
@@ -132,7 +132,7 @@ class Txt(object):
 
     ABOUT_MSG = """
 **- 𝖬ʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>**
-**- 𝖢ʀᴇᴀᴛᴏʀ : <a href=t.me/ll_ALPHA_BABY_lll>⎯᪵፝֟፝֟⎯꯭𓆩꯭ 𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭꯭̽🥂꯭༎꯭ 𓆪꯭ </a>**
+**- 𝖢ʀᴇᴀᴛᴏʀ : <a href=t.me/II_VIKRANT_II>𝐕ɪᴋʀᴀɴᴛ </a>**
 **- 𝖫ɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ**
 **- 𝖫ᴀɴɢᴜᴀɢᴇ : 𝖯ʏᴛʜᴏɴ 𝟥**
 **- 𝖣ᴀᴛᴀʙᴀsᴇ : 𝖬ᴏɴɢᴏ ᴅʙ**
